@@ -47,27 +47,3 @@ Perfil Personalizado: Gestão de informações do usuário e busca de amigos.
 
 Sincronização Offline: Uso de Workers para garantir que os dados locais sejam enviados para a nuvem assim que houver conexão.
 
-📦 Como Rodar o Projeto
-Clonar o repositório:
-
-Bash
-git clone https://github.com/seu-usuario/pegapista.git
-Configurar o Firebase:
-
-Crie um projeto no Firebase Console.
-
-Adicione um app Android com o package name com.example.pegapista.
-
-Baixe o arquivo google-services.json e coloque-o na pasta app/.
-
-Configurar chaves de API:
-
-Ative a Maps SDK for Android no Google Cloud Console.
-
-Adicione sua chave de API no AndroidManifest.xml (ou via Secrets Gradle Plugin).
-
-Build:
-
-Abra o projeto no Android Studio e execute o Sync do Gradle.
-
-Rode o aplicativo em um emulador ou dispositivo físico.
